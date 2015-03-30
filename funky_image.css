@@ -1,0 +1,39 @@
+/* This is the div class that crops the image.
+Also used by the hover_area div's. Needs to be as big as image was. */
+.funky_pic_holder{
+
+	position: 		relative;
+	width: 				300px;
+	height:				400px;
+	overflow: 		hidden;
+
+}
+
+/* This is the image class */
+.funky_pic{
+
+	width:				300px;
+	
+
+}
+
+/* This is text that follows the image up the page */
+.non_funky_text{
+
+	color:  			red;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+/* This is the text that copies paprika.com */ 
+.funky_text{
+
+	position: 		absolute;
+	z-index: 			-1;
+	left: 				0px;
+	top: 					0px;
+	
+	color:  			red;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
